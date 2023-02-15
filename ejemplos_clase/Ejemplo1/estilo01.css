@@ -1,0 +1,53 @@
+body{
+    min-width:380px;
+}
+
+body > header{
+    background-color:#50A5FFFF;
+    padding: .5em;
+    color: #fff;
+}
+
+body > footer{
+    background-color: #F3FFBCFF;
+}
+
+#seccion01 > article,
+body > section > article{
+    background-color: #ccc;
+    padding: .5em;
+    margin: .5em 0;
+}
+
+body > nav {
+    background-color: #99FFA2FF;
+}
+
+body > nav > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display:none; /* Se oculta el elemento */
+}
+
+body > nav > ul > li > a{
+    display: block;
+}
+
+body > nav > ul > li > a:hover{
+    background-color: #234E87FF;
+    color: #fff;
+}
+
+body > nav > label {
+    cursor: pointer;
+}
+
+#chkMenu{
+    display: none;
+}
+
+#chkMenu:checked + ul {
+    display: block; /* Muestra el elemento */
+}
