@@ -20,12 +20,3 @@ h3{
 /* Esto lo deberiamos de poner en un css comun */
 
 /* Mirara que el footer este pegado abajo */
-
-footer{
-    background-color: rgb(204, 204, 113);
-    
-}
-
-.f2{
-   float: right;
-}
