@@ -1,0 +1,109 @@
+/* FUENTES WEB */
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@300&display=swap');
+
+body{
+    min-width:380px;
+}
+
+body > header{
+    background-color:#50A5FFFF;
+    padding: .5em;
+    color: #fff;
+    font-family: 'Shantell Sans', cursive;
+}
+
+body > footer{
+    background-color: #F3FFBCFF;
+}
+
+#seccion01 > div > article,
+body > section > article{
+    background-color: #ccc;
+    padding: .5em;
+    margin: .5em 0;
+}
+
+body > nav {
+    background-color: #99FFA2FF;
+
+    position: sticky;
+    top: 0;
+}
+
+body > nav > ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display:none; /* Se oculta el elemento */
+}
+
+body > nav > ul > li > a{
+    display: block;
+}
+
+body > nav > ul > li > a:hover{
+    background-color: #234E87FF;
+    color: #fff;
+}
+
+body > nav > label {
+    cursor: pointer;
+}
+
+#chkMenu{
+    display: none;
+}
+
+#chkMenu:checked + ul {
+    display: block; /* Muestra el elemento */
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 400px){
+    body > nav > ul {
+        display: block;
+    }
+
+    body > nav > ul > li {
+        display: inline-block;
+    }
+
+    body > nav > ul > li > a {
+        padding: .4em;
+    }
+
+    body > nav > ul > li > a > span {
+        display: none;
+    }
+
+    body > nav > label[for] {
+        display: none;
+    }
+}
+
+@media (min-width: 540px){
+    body > nav > ul > li > a > span {
+        display: inline-block;
+    }
+
+    #seccion01 > div {
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: space-evenly;
+    }
+
+    #seccion01 > div > article {
+        width: 45%;
+        margin: .5em;
+
+        flex-grow: 1;
+    }
+}
+
+@media (min-width: 700px){
+    #seccion01 > div > article {
+        width: 30%;
+    }
+}
