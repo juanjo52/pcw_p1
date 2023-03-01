@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./ejemploForms.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejemplo de elementos de formulario</h1>
+    <form>
+        <div>
+            <label for="login">Login:</label><input type="text" name="login" id="login">
+        </div>
+        <div>
+           <label for="pwd">Pwd:</label><input type="password" name="pwd" id="pwd">
+        </div>
+        <div>
+            <label for="zona">Zona:</label><input type="text" name="zona" list="zonas" id="zona">
+        </div>
+        <datalist id="zonas">
+            <option>Opción A</option>
+            <option>Opción B</option>
+            <option>Opción C</option>
+        </datalist>
+        <div>
+            <label for="foto">Foto:</label>
+            <input type="file" name="foto" id="foto"> <!-- ocultar con display:none en css-->
+            <label for="foto">
+                <img src="https://picsum.photos/200/300/?blur" alt="
+                ">
+            </label>
+        </div>
+        <div class="botonera">
+            <input type="submit" value="Enviar"><input type="reset" value="Limpiar">
+        </div>
+    </form>
+</body>
+</html>
