@@ -25,6 +25,7 @@ body > section > article{
 
 body > nav {
     background-color: #99FFA2FF;
+    padding: .5em;
 
     position: sticky;
     top: 0;
@@ -38,14 +39,20 @@ body > nav > ul{
     display:none; /* Se oculta el elemento */
 }
 
+body > nav > ul > li > a{}
+
 body > nav > ul > li > a{
     display: block;
+    text-decoration: none;
+    color: #000000;
 }
 
 body > nav > ul > li > a:hover{
     background-color: #234E87FF;
     color: #fff;
 }
+
+
 
 body > nav > label {
     cursor: pointer;
@@ -60,6 +67,8 @@ body > nav > label {
 }
 
 /* MEDIA QUERIES */
+
+/* Tamaño pequeño*/
 @media (min-width: 400px){
     body > nav > ul {
         display: block;
@@ -67,10 +76,10 @@ body > nav > label {
 
     body > nav > ul > li {
         display: inline-block;
+        padding: .5em;
     }
 
     body > nav > ul > li > a {
-        padding: .4em;
     }
 
     body > nav > ul > li > a > span {
@@ -82,6 +91,7 @@ body > nav > label {
     }
 }
 
+/* Tamaño mediano*/
 @media (min-width: 540px){
     body > nav > ul > li > a > span {
         display: inline-block;
@@ -102,6 +112,7 @@ body > nav > label {
     }
 }
 
+/* Tramaño grande */
 @media (min-width: 700px){
     #seccion01 > div > article {
         width: 30%;
