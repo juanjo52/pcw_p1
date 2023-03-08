@@ -66,11 +66,15 @@ body > nav > ul{
     margin: 0;
     padding: 0;
 
-    display:none; /* Se oculta el elemento */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease-in-out;
+    /*display:none; Se oculta el elemento */
 }
 
 body > nav > ul > li > a{
     display: block;
+    padding: .5em;
 }
 
 body > nav > ul > li > a:hover{
@@ -87,7 +91,8 @@ body > nav > label {
 }
 
 #chkMenu:checked + ul {
-    display: block; /* Muestra el elemento */
+    max-height: 12em;
+   /* display: block;  Muestra el elemento */
 }
 
 /* Como poner articulos en cada tamaño sin tener que cambiar cada media query*/
@@ -95,6 +100,16 @@ body > nav > label {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); /* nota Juanjo: autofill deja huecos y autofit rellena el hueco*/
     grid-gap: .5em;
+}
+
+#seccion01 > div > article > img {
+    transition: transform 1s;
+}
+
+#seccion01 > div > article:hover > img {
+    /* transform: scale(1.2);  */
+    transform-origin: top left;
+    transform: rotate(45deg);
 }
 
 /* MEDIA QUERIES */
