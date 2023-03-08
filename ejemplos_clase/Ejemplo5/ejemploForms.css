@@ -1,0 +1,26 @@
+form {
+    width: 20em;
+}
+
+form > div:not(.botonera){
+    display: flex;
+    flex-direction: column;
+}
+
+form > div > label {
+    width: 6em;
+}
+
+/* Seleccionar inputs al lado de los label */
+form > div > label+input {
+    flex-grow: 1;
+}
+
+input[type=file]{
+    display: none;
+}
+
+img{
+    cursor: pointer;
+}
+
