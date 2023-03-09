@@ -7,12 +7,34 @@ html, body{
     height: 100%;
 }
 
-body > header{
+/* body > header{
     background-color:#50A5FFFF;
     padding: .5em;
     color: #fff;
     font-family: 'Shantell Sans', cursive;
+} */
+
+/* Esto es de CHATGTP */ 
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #0db8be;
+    height: 80px;
+    padding: 0 20px;
 }
+
+.header img {
+    height: 60px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*                      */ 
 
 body > footer{
     background-color: #F3FFBCFF;
@@ -128,4 +150,12 @@ body > nav > label {
     #seccion01 > div > article {
         width: 30%;
     }
+}
+.f2{
+    float: right;
+}
+
+section > div > article > a > img:hover{
+    
+    filter: blur(5px);
 }

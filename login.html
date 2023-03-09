@@ -6,26 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="cssfont/fontello.css"> 
     <title>Index</title>
 </head>
 <body>
-    <header>
-        <img src="./img/nano.jpg" alt="Fofo del mayor estafador del mundo">
-        <h1>Info Barrio</h1>
+    <header class="header">
+        <!-- Aquí va el logo, el títuloy  el slogan de la página -->
+        <img src="./img/nano.jpg" alt="Imagen de cabecera">
+        <h1>Título de cabecera</h1>
     </header>
     
-    <nav class="menu">
-        <label class="labelMenu" for="menuPlegable">&equiv;</label>
-        <input type="checkbox" id="menuPlegable">
-        
-        <!-- <label for="menuPlegable" class="menu-icon"><i class="fa fa-bars"></i></label> necesitamos importar una imagen aqui -->
+    <nav>
+        <label for="chkMenu">&equiv;</label>
+        <input type="checkbox" id="chkMenu">
         <ul class="enlaces">
-            <li><a href="./acerca.html">Acerca</a></li>
-            <li><a href="./buscar.html">Buscar</a></li>
-            <li><a href="./login.html">Login</a></li>
-            <li><a href="./registro.html">Registro</a></li>
-            <li><a href="./publicacion.html">Publicacion</a></li>
-            <li><a href="./nueva.html">Nueva</a></li>
+            <li><a href="./index.html" class="icon-home"><span>Inicio</span></a></li>
+            <li><a href="./buscar.html" class="icon-search"><span>Buscar</span></a></li>
+            <li><a href="./login.html" class="icon-login"><span>Login</span></a></li>
+            <li><a href="./index.html" class="icon-logout"><span>Logout</span></a></li>
+            <li><a href="./registro.html" class="icon-user-add"><span>Registro</span></a></li>
+            <li><a href="./nueva.html" class="icon-user"><span>Nueva</span></a></li>
         </ul>
     </nav>
 
@@ -39,7 +39,7 @@
                 <a href="./registro.html">Registrarse</a><input type="submit" value="Acceder">
             </div>
     </section>
-
+    <br><br>
     <footer>
         <div><span class="f2">Practica 1 PCW - 2023</span>&copy;<a href="./acerca.html">Contacto</a></div>
     </footer>
