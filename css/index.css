@@ -9,15 +9,13 @@ html, body{
     margin: 0;
 }
 
-/* body > header{
-    background-color:#50A5FFFF;
+body > header{
+    background-color: #FFF1DC;
     padding: .5em;
-    color: #fff;
-    font-family: 'Shantell Sans', cursive;
 } */
 
 /* Esto es de CHATGTP */ 
-.header {
+/*.header {
     display: flex;
     align-items: center;
     background-color: #FFF1DC;
@@ -35,8 +33,7 @@ html, body{
     margin: 0 auto;
     text-align: center;
 }
-
-/*                      */ 
+*/ 
 
 body > footer{
     background-color: #EEEEEE;
@@ -105,6 +102,31 @@ body > nav > label {
 
 /* Tamaño pequeño*/
 @media (min-width: 400px){
+    body > header {
+        display: grid;
+        grid-template-areas:"img h1"
+                            "h2 h2";
+        grid-template-columns: 30% auto;
+        grid-gap: .4em;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    body > header > img {
+        grid-area: img;
+        cursor: pointer;
+    }
+    
+    body > header > h1 {
+        grid-area: h1;
+    }
+
+    body > header > h2 {
+        grid-area: h2;
+        justify-self: end;
+
+    }
+
     body > nav {
         text-align: center;
     }
