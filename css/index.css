@@ -80,12 +80,14 @@ body > nav > ul > li > a{
     color: #000000;
 }
 
-.enlaces > li:hover{
+.enlaces > li:hover {
     background-color: #234E87FF;
     color: #fff;
 }
 
-
+.fotosPubli {
+    width: 100%;
+}
 
 body > nav > label {
     cursor: pointer;
