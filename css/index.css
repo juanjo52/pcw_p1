@@ -18,7 +18,7 @@ html, body{
 .header {
     display: flex;
     align-items: center;
-    background-color: #0db8be;
+    background-color: #3A98B9;
     height: 80px;
     padding: 0 20px;
 }
@@ -37,7 +37,7 @@ html, body{
 /*                      */ 
 
 body > footer{
-    background-color: #F3FFBCFF;
+    background-color: #EEEEEE;
 }
 
 #seccion01 > div > article,
@@ -48,7 +48,7 @@ body > section > article{
 }
 
 body > nav {
-    background-color: #99FFA2FF;
+    background-color: #FFF1DC;
 
     position: sticky;
     top: 0;
@@ -75,6 +75,7 @@ body > nav > ul > li > a{
     width: 100%;
     padding: 5px 10px;
     background-color: #99FFA2FF;
+    text-align: center;
     color: #000000;
 }
 
@@ -166,5 +167,6 @@ body > nav > label {
 
 section > div > article > a > img:hover{
     
-    filter: blur(5px);
+    /* filter: blur(5px); */
+    transform: scale(0.8)
 }
