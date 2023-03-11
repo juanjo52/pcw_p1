@@ -46,12 +46,21 @@ body > footer{
 
 #seccion01 > div > article,
 body > section > article{
+    border-radius: 1em;
     background-color: #00594F;
     padding: .5em;
     margin: .5em 0;
+    cursor: pointer;
+}
+
+#seccion01 > div > article:hover,
+body > section > article:hover {
+    background-color: #CEDC00;
 }
 
 body > nav {
+    background-color: #00594F;
+
     position: sticky;
     top: 0;
 }
@@ -61,7 +70,6 @@ body > nav > ul{
     list-style: none;
     margin: 0;
     padding: 0;
-    /* background-color: #949998;  */
     background-color: #00594F;
 
     display:none; /* Se oculta el elemento */
@@ -78,13 +86,9 @@ body > nav > ul > li > a{
     display: block;
     width: 100%;
     padding: 5px 10px;
-    /* background-color: #00352F; */
-    /* background-color: #949998;  */
     background-color: #00594F;
     color: #FFFFFF; 
-    /* color: #000000; */
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .enlaces > li:hover {
@@ -94,6 +98,29 @@ body > nav > ul > li > a{
 
 .fotosPubli {
     width: 100%;
+}
+
+section > div > article > a{  
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:#FFFFFF;
+    font-size: 1.5em;
+}
+
+/* Cuando articulo esta seleccionado */
+section > div > article:hover > a{  
+    color:#000000
+}
+
+section > div > article > a > h4{  
+    text-align: center;
+}
+
+
+section > div > article:hover > a > img{  
+    /* filter: blur(5px);  */
+    filter: grayscale(80%);
+    transition: all .5s ease-in-out;
 }
 
 body > nav > label {
@@ -140,6 +167,7 @@ body > nav > label {
 
     body > nav {
         text-align: center;
+        
     }
 
     .enlaces > li{
@@ -199,8 +227,10 @@ body > nav > label {
     float: right;
 }
 
-section > div > article > a > img:hover{
+
+/*section > div > article > a > img:hover{
     
-    /* filter: blur(5px); */
+    filter: blur(5px); ----> estaba comentada esta linea
     transform: scale(0.8)
-}
+}*/
+
