@@ -51,11 +51,14 @@ body > section > article{
     padding: .5em;
     margin: .5em 0;
     cursor: pointer;
+    transition: all .5s ease-in-out;
+
 }
 
 #seccion01 > div > article:hover,
 body > section > article:hover {
     background-color: #CEDC00;
+    transition: all .5s ease-in-out;
 }
 
 body > nav {
@@ -89,11 +92,13 @@ body > nav > ul > li > a{
     background-color: #00594F;
     color: #FFFFFF; 
     font-family: Arial, Helvetica, sans-serif;
+    transition: all .5s ease-in-out;
 }
 
 .enlaces > li:hover {
     background-color: #CEDC00;
     color: #000000; 
+    transition: all .5s ease-in-out;
 }
 
 .fotosPubli {
@@ -109,7 +114,9 @@ section > div > article > a{
 
 /* Cuando articulo esta seleccionado */
 section > div > article:hover > a{  
-    color:#000000
+    color:#000000;
+    transition: all .5s ease-in-out;
+
 }
 
 section > div > article > a > h4{  
