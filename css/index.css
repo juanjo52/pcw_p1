@@ -10,9 +10,14 @@ html, body{
 }
 
 body > header{
-    background-color: #FFF1DC;
+    background-color: #00352F;
     padding: .5em;
-} */
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+body > header > h1, h2 {
+    color: #FFFFFF;
+}
 
 /* Esto es de CHATGTP */ 
 /*.header {
@@ -36,19 +41,17 @@ body > header{
 */ 
 
 body > footer{
-    background-color: #EEEEEE;
+    background-color: #00594F;
 }
 
 #seccion01 > div > article,
 body > section > article{
-    background-color: #ccc;
+    background-color: #00594F;
     padding: .5em;
     margin: .5em 0;
 }
 
 body > nav {
-    background-color: #FFF1DC;
-
     position: sticky;
     top: 0;
 }
@@ -58,6 +61,8 @@ body > nav > ul{
     list-style: none;
     margin: 0;
     padding: 0;
+    /* background-color: #949998;  */
+    background-color: #00594F;
 
     display:none; /* Se oculta el elemento */
 }
@@ -73,13 +78,18 @@ body > nav > ul > li > a{
     display: block;
     width: 100%;
     padding: 5px 10px;
-    background-color: #FFF1DC;
-    color: #000000;
+    /* background-color: #00352F; */
+    /* background-color: #949998;  */
+    background-color: #00594F;
+    color: #FFFFFF; 
+    /* color: #000000; */
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .enlaces > li:hover {
-    background-color: #e9a3399a;
-    color: #fff;
+    background-color: #CEDC00;
+    color: #000000; 
 }
 
 .fotosPubli {
@@ -88,6 +98,7 @@ body > nav > ul > li > a{
 
 body > nav > label {
     cursor: pointer;
+    color: #FFFFFF;
 }
 
 #chkMenu{
