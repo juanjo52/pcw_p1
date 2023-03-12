@@ -138,6 +138,10 @@ body > nav > ul > li > a{
     width: 100%;
 }
 
+.fotosAcerca {
+    width: 100%;
+}
+
 section > div > article > a{  
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
