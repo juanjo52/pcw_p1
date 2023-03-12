@@ -23,7 +23,7 @@ form{
 	padding:30;
 	border-radius:10px;
 	margin:auto;
-	background-color:#E8D5C4;
+	background-color:#00594F;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,9 +34,10 @@ form{
 form > h3{
     margin-top: -10px;
     font-size: 30px;
+    color: white;
 }
 form > label{
-
+    color: white;
     margin-top: 5px;
 }
 /* Esto lo deberiamos de poner en un css comun */
