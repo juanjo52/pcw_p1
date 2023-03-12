@@ -70,6 +70,13 @@ body > footer{
 }
 /* *************** */
 
+.fechas {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+
 #seccion01 > div > article,
 body > section > article{
     border-radius: 1em;
