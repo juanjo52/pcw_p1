@@ -14,6 +14,7 @@ input,
 textarea {
     display: block;
     margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 label {
@@ -36,9 +37,14 @@ input[type="submit"] {
     font-size: 16px;
     border-radius: 5px;
     border: none;
-    background-color: #008CBA;
-    color: #fff;
+    background-color: #CEDC00;
+    color: #333;
     cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #00594F;
+    color: #fff;
 }
 
 input[type="reset"] {
@@ -51,6 +57,10 @@ input[type="reset"] {
     background-color: #c02525;
     color: #fff;
     cursor: pointer;
+}
+
+input[type="reset"]:hover{
+    background-color: #581414;
 }
 
 .botonera {
@@ -79,8 +89,8 @@ img {
 /* Botones de las imágenes*/
 .button-group {
     position: absolute;
-    bottom: 20px;
-    left: 20px;
+    bottom: 10px;
+    left: 10px;
 }
 
 .botonSubir,
@@ -89,20 +99,31 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     font-size: medium;
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #fff;
+    padding: 3px 5px;
     color: #333;
     border: 2px solid #333;
     border-radius: 5px;
     margin-right: 10px;
 }
 
+.botonSubir{
+    background-color: #CEDC00;
+}
 
-.botonSubir:hover,
-.botonBorrar:hover {
-    background-color: #333;
+.botonBorrar{
+    background-color: #c02525;
     color: #fff;
 }
+
+.botonSubir:hover {
+    background-color: #00594F;
+    color: #fff;
+}
+
+.botonBorrar:hover {
+    background-color: #581414;
+}
+
 
 /*ocultar todos los inputs tipo file*/
 input[type="file"] {
