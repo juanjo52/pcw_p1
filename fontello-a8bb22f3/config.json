@@ -47,6 +47,18 @@
       "css": "user",
       "code": 59398,
       "src": "entypo"
+    },
+    {
+      "uid": "aa0d87f43ed577ed479df28dc3724c11",
+      "css": "folder-delete",
+      "code": 59400,
+      "src": "typicons"
+    },
+    {
+      "uid": "e536c80e011366046360f5ffe669dbfd",
+      "css": "folder-add",
+      "code": 59399,
+      "src": "typicons"
     }
   ]
 }

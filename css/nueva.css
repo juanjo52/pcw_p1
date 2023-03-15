@@ -53,7 +53,7 @@ input[type="reset"] {
     cursor: pointer;
 }
 
-.botonera{
+.botonera {
     text-align: right;
 }
 
@@ -83,7 +83,11 @@ img {
     left: 20px;
 }
 
-.button1, .button2 {
+.botonSubir,
+.botonBorrar {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
     display: inline-block;
     padding: 10px 20px;
     background-color: #fff;
@@ -91,12 +95,20 @@ img {
     border: 2px solid #333;
     border-radius: 5px;
     margin-right: 10px;
-  }
-  
-  .button1:hover, .button2:hover {
+}
+
+
+.botonSubir:hover,
+.botonBorrar:hover {
     background-color: #333;
     color: #fff;
-  }
+}
+
+/*ocultar todos los inputs tipo file*/
+input[type="file"] {
+    display: none;
+}
+
 /******************/
 
 @media (max-width: 1300px) {
