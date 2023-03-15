@@ -17,6 +17,24 @@ textarea {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#seccion01 > button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CEDC00;
+    color: #333;
+    cursor: pointer;
+}
+
+#seccion01 > button:hover {
+    color: #fff;
+    background-color: #00594F;
+}
+
+
 label {
     font-weight: bold;
 }
@@ -66,6 +84,7 @@ input[type="reset"]:hover{
 .botonera {
     text-align: right;
 }
+
 
 
 /* Imagenes */
