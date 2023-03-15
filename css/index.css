@@ -27,28 +27,6 @@ h1, h2, h3, h4, h5{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* Esto es de CHATGTP */ 
-/*.header {
-    display: flex;
-    align-items: center;
-    background-color: #FFF1DC;
-    height: 80px;
-    padding: 0 20px;
-}
-
-.header img {
-    height: 60px;
-    margin-right: 20px;
-}
-
-.header h1 {
-    font-size: 28px;
-    margin: 0 auto;
-    text-align: center;
-}
-*/ 
-
 /*  FOOTER */
 body > footer{
     background-color: #00352F;
@@ -85,7 +63,6 @@ body > section > article{
     margin: .5em 0;
     cursor: pointer;
     transition: all .5s ease-in-out;
-
 }
 
 #seccion01 > div > article:hover,
@@ -175,6 +152,12 @@ section > div > article:hover > a > img{
 body > nav > label {
     cursor: pointer;
     color: #FFFFFF;
+}
+
+
+/* línea separadora*/
+hr {
+    border: 2px solid #CEDC00;
 }
 
 #chkMenu{
