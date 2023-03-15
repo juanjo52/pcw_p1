@@ -141,6 +141,12 @@ section > div > article:hover > a{
 
 section > div > article > a > h4{  
     text-align: center;
+
+    text-overflow: ellipsis;
+
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
 }
 
 section > div > article:hover > a > img{  
