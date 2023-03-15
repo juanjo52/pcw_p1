@@ -6,3 +6,5 @@
 .icon-user-add:before { content: '\e804'; } /* '' */
 .icon-plus:before { content: '\e805'; } /* '' */
 .icon-user:before { content: '\e806'; } /* '' */
+.icon-folder-add:before { content: '\e807'; } /* '' */
+.icon-folder-delete:before { content: '\e808'; } /* '' */
