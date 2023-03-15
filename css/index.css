@@ -72,6 +72,7 @@ body > section > article:hover {
 }
 
 body > nav {
+    z-index: 999;
     background-color: #00594F;
 
     position: sticky;
