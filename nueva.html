@@ -55,16 +55,51 @@
 
                 <!-- hacer lo del datalist -->
                 <label for="ubicacion">Ubicación:</label>
-                <input type="text" id="ubicacion" name="ubicacion" required>
+                <input type="text" id="ubicacion" name="ubicacion" list="ubicaciones" required>
 
-                <input type="submit" value="Enviar">
+                <datalist id="ubicaciones">
+                    <option>Tómbola</option>
+                    <option>San Blas</option>
+                    <option>San Agustín</option>
+                    <option>Los Ángeles</option>
+                    <option>Virgen del Carmen</option>
+                    <option>Virgen del Remedio</option>
+                    <option>Rabasa</option>
+                    <option>San Juan Playa</option>
+                    <option>Carolinas Altas</option>
+                    <option>Carolinas Bajas</option>
+                    <option>Florida</option>
+                    <option>Ciudad de Asis</option>
+                </datalist>
+                <div class="botonera">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Borrar">
+                </div>
+
             </form>
             <label>Imágenes:</label>
 
+            <!-- Cambiar botones por iconos -->
             <section class="imagenes">
-                <img src="https://via.placeholder.com/150" alt="Imagen 1">
-                <img src="https://via.placeholder.com/150" alt="Imagen 2">
-                <img src="https://via.placeholder.com/150" alt="Imagen 3">
+                <img src="./img/no-image.png" alt="Imagen 1">
+                <section class="button-group">
+                    <button class="button1">S</button>
+                    <button class="button2">B</button>
+                </section>
+            </section>
+            <section class="imagenes">
+                <img src="./img/no-image.png" alt="Imagen 2">
+                <section class="button-group">
+                    <button class="button1">S</button>
+                    <button class="button2">B</button>
+                </section>
+            </section>
+            <section class="imagenes">
+                <img src="./img/no-image.png" alt="Imagen 3">
+                <section class="button-group">
+                    <button class="button1">S</button>
+                    <button class="button2">B</button>
+                </section>
             </section>
         </section>
         <footer>
