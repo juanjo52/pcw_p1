@@ -166,7 +166,6 @@ section > div > article > a > h4{
     text-align: center;
 }
 
-
 section > div > article:hover > a > img{  
     /* filter: blur(5px);  */
     filter: grayscale(80%);
@@ -177,8 +176,6 @@ body > nav > label {
     cursor: pointer;
     color: #FFFFFF;
 }
-
-
 
 #chkMenu{
     display: none;
