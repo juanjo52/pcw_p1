@@ -40,6 +40,9 @@ form > label{
     color: white;
     margin-top: 5px;
 }
+section > img{
+    float: left;
+}
 /* Esto lo deberiamos de poner en un css comun */
 
 /* Mirara que el footer este pegado abajo */
