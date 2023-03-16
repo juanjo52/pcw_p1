@@ -69,6 +69,18 @@ body > section > article:hover {
     transition: all .5s ease-in-out;
 }
 
+#seccion01 > div > article:hover > div > .fechas {
+    color: #000000;
+    transition: all .5s ease-in-out;
+}
+
+#seccion01 > div > article:hover > div > .f2 {
+    color: #000000;
+    transition: all .5s ease-in-out;
+
+}
+
+
 body > nav {
     z-index: 999;
     background-color: #00594F;
