@@ -171,6 +171,10 @@ body > nav > label {
     color: #FFFFFF;
 }
 
+/* Parte paginacion */
+.partePaginacion {
+    text-align: center;
+}
 
 /* línea separadora*/
 hr {
