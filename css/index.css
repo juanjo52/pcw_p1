@@ -174,7 +174,35 @@ body > nav > label {
 /* Parte paginacion */
 .partePaginacion {
     text-align: center;
+    padding: .5em;
 }
+
+.botones > button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CEDC00;
+    color: #333;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.botones > button:hover {
+  
+    background-color: #00594F;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.botones > span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
 
 /* línea separadora*/
 hr {
