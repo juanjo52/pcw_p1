@@ -48,6 +48,10 @@ textarea {
     border: 1px solid #ccc;
 }
 
+textarea {
+    resize: vertical;
+}
+
 input[type="submit"] {
     display: inline-block;
     margin-top: 10px;
