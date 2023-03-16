@@ -41,7 +41,7 @@ form > label{
     margin-top: 5px;
 }
 section > img{
-    float: left;
+    float: right;
 }
 /* Esto lo deberiamos de poner en un css comun */
 
