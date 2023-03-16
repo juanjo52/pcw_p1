@@ -192,7 +192,6 @@ body > nav > label {
 }
 
 .botones > button:hover {
-  
     background-color: #00594F;
     color: #fff;
     transition: all .5s ease-in-out;
@@ -203,6 +202,9 @@ body > nav > label {
     font-weight: bold;
 }
 
+h2{
+    font-weight: lighter;
+}
 
 /* línea separadora*/
 hr {
@@ -279,7 +281,7 @@ hr {
 }
 
 /* Tamaño mediano*/
-@media (min-width: 850px){
+@media (min-width: 875px){
     body > nav > ul > li > a > span {
         display: inline-block;
     }
