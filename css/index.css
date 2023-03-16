@@ -188,12 +188,19 @@ body > nav > label {
     background-color: #CEDC00;
     color: #333;
     cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.botones > button:hover {
+  
+    background-color: #00594F;
+    color: #fff;
+    transition: all .5s ease-in-out;
 }
 
 .botones > span {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    
 }
 
 
