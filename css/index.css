@@ -130,10 +130,16 @@ body > nav > ul > li > a{
 }
 
 .fotosAcerca {
-    width: 100%;
+    width: 300px;
     height: 300px;
+    padding-top: .5em;
+    margin-left: 32%;
     object-fit: fill;
     object-position: bottom;
+}
+
+article > a > .fotosAcerca {
+    align-items: center;
 }
 
 section > div > article > a{  
