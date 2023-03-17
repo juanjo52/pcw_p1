@@ -21,18 +21,65 @@ img{
 }
 
 .botonera{
-    float: left;
+    text-align: right;
     margin-top: 10px;
 
 }
 
-/* @media (max-width: 1300px) {
+#seccion01 > button:hover {
+    color: #fff;
+    background-color: #00594F;
+}
+input[type="submit"] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CEDC00;
+    color: #333;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #00594F;
+    color: #fff;
+}
+
+input[type="file"] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CEDC00;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #c02525;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/*  no furrula
+@media (max-width: 1300px) {
     .container {
         flex-direction: column;
         align-items: center;
     }
 
-     .imagenes {
+     img{
         display: flex;
         flex-direction: column;
         justify-content: center;
