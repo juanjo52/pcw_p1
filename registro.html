@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,7 +35,7 @@
             <li><a href="./nueva.html" class="icon-plus"><span>Nueva</span></a></li>
         </ul>
     </nav>
-    <div class="container">
+    <!-- <div class="container">
         <section>
             <form>
                 <h3>Registrarse</h3><br>
@@ -51,14 +52,51 @@
                     <label for="foto" class="icon-folder-add"></label>
                     <input type="file" id="foto">
                     <button type="button" class="icon-folder-delete">
-                        
+
                 </div>
             </form>
             
         </section>
+    </div> -->
+
+    <div class="container">
+        
+        <form>
+            <h3>Registro</h3>
+            <hr>
+            <label class="area">Nombre:</label>
+            <input type="text" maxlength="200" required autofocus>
+
+            <label>Contraseña:</label>
+            <input type="password" pattern="^[a-zA-Z0-9._-]{4,20}$" required>
+
+            <label>Confirmar Contraseña:</label>
+            <input type="password" pattern="^[a-zA-Z0-9._-]{4,20}$" required>
+
+            <label>Dirección de correo electrónico:</label>
+            <input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+
+            
+            <div class="botonera">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </div>
+        </form>
+
+        <div class="imagenes">
+            <label for="foto1" class="labelFoto">Imagen:<img src="./img/no-image.png" alt="Imagen 1"></label>
+            <div class="button-group">
+                <label for="foto1" class="icon-folder-add"></label>
+                <input type="file" id="foto1">
+
+                <button class="icon-folder-delete"></button>
+            </div>
+        </div>
     </div>
+
     <footer>
-        <span class="f3"><a href="./acerca.html">&copy; Practica 1 PCW - 2023 -  Acerca</a></span>
+        <span class="f3"><a href="./acerca.html">&copy; Practica 1 PCW - 2023 - Acerca</a></span>
     </footer>
 </body>
+
 </html>
