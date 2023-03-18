@@ -1,4 +1,7 @@
+/* Importamos fuente del título y subtítulo*/
 /* FUENTES WEB */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
 body{ 
     min-width:350px;
     min-height:350px;
@@ -22,7 +25,8 @@ body > header > h1, h2 {
 }
 
 h1, h2, h3, h4, h5{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+
 }
 
 /*  FOOTER */
