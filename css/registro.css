@@ -26,6 +26,18 @@ img{
 
 }
 
+.botonera > label {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CEDC00;
+    color: #fff;
+    cursor: pointer;
+}
+
 #seccion01 > button:hover {
     color: #fff;
     background-color: #00594F;
@@ -48,18 +60,12 @@ input[type="submit"]:hover{
 }
 
 input[type="file"] {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px;
-    font-size: 16px;
-    border-radius: 5px;
-    border: none;
-    background-color: #CEDC00;
-    color: #fff;
-    cursor: pointer;
+    display: none;
 }
 
-input[type="reset"] {
+
+/* elementos con esta clase*/
+.icon-folder-delete {
     display: inline-block;
     margin-top: 10px;
     padding: 10px;
