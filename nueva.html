@@ -44,14 +44,14 @@
     <div class="container">
         <form>
             <label for="titulo">Título:</label>
-            <input type="text" id="titulo" name="titulo" required>
+            <input type="text" id="titulo" name="titulo" maxlength="200" required>
 
             <label for="texto">Texto:</label>
             <textarea id="texto" name="texto" rows="5" cols="50" required></textarea>
 
             <!-- hacer lo del datalist -->
             <label for="ubicacion">Ubicación:</label>
-            <input type="text" id="ubicacion" name="ubicacion" list="ubicaciones" required>
+            <input type="text" id="ubicacion" name="ubicacion" list="ubicaciones" maxlength="100" required>
 
             <datalist id="ubicaciones">
                 <option>Tómbola</option>
