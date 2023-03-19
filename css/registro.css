@@ -230,7 +230,7 @@ img :not(header){
 .button-group {
     position: absolute;
     bottom: 10px;
-    left: 10px;
+    left: 15%;
 }
 
 /*  boton subir imagen */
