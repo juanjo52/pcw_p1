@@ -41,3 +41,72 @@
 .section03{
     margin-top: 50px;
 }
+
+.section03 > div{
+    position: relative;
+}
+
+.section03 > div > div > img{
+    width: 150px;
+}
+
+.section03 > div > div >label{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.area2{
+    width: 25%;
+    float: right;
+    padding-right: 20px;
+}
+
+.area2 > div > label{
+    text-align: left;
+}
+
+.coments{
+    width: 70%;
+}
+.usernames{
+    font-weight: bold;
+}
+
+.area2, .section03 > div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.area2 > div > textarea{
+    margin-top: 10px;
+    width: 90%;
+    /* padding: 20px; */
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.bot2 > input{
+    display: inline-block;
+}
+
+.bot2 > input:nth-child(2){
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CEDC00;
+    color: #333;
+    cursor: pointer;
+
+}
+
+.bot2 > input:nth-child(2):hover{
+    
+    background-color: #00594F;
+    color: #fff;
+}
