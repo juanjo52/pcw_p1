@@ -229,6 +229,8 @@ hr {
     display: block; /* Muestra el elemento */
 }
 
+
+
 /* MEDIA QUERIES */
 
 /* Tamaño pequeño*/
@@ -242,8 +244,14 @@ hr {
         justify-content: center;
         justify-items: center;
     }
+    
+    body > header > a > img {
+        grid-area: img;
+        cursor: pointer;
+        height: 300px;
+    }
 
-    h1{
+    header h1{
         margin-top: 100%;
     }
 
